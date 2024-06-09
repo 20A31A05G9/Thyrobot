@@ -1,0 +1,135 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+      {
+        "tag": "symptoms",
+        "patterns":["What are the symptoms of thyroid?"],
+        "responses":["Fatigue\nIncreased sensitivity to cold\nConstipation\nDry Skin\nA sudden gain or loss of weight\nPuffy face\nHoarseness\nMuscle Weakness\nHeavy and irregular menstruation "]
+      },
+      {
+        "tag":"thyroid",
+        "patterns":["What is thyroid?"],
+        "responses":["Thyroid is a gland at the center of the throat releases hormones those regulate body's metabolism.\n Excessive production of hormones causes HYPERTHYROIDISM and \n If gland can't produce enough of hormones , it cause HYPOTHYROIDISM"]
+      },
+      {
+        "tag": "cause",
+        "patterns":["how could anybody affected by it?","What is the main cause for thyroid?"],
+        "responses":["Doctors also aren't sure always how it happens,but it's likely a combination of factors, such as your genes and an environmental trigger"]
+      },
+      {
+        "tag":"cure",
+        "patterns":["Is thyroid disease curable?", "can we cure it?"],
+        "responses":["All thyroid diseases can be treated, resulting in normal thyroid function. However, this frequently requires being on medication to maintain the normal thyroid state"]
+      },
+      {
+        "tag":"test",
+        "patterns":["What blood test shows thyroid?","How to check thyroid?"],
+        "responses":["The test, called a thyroid function test, looks at levels of thyroid-stimulating hormone (TSH) and thyroxine (T4) in the blood.\n Consult your doctor before taking any serious steps."]
+      },
+      {
+        "tag":"hyperthyroidism",
+        "patterns":["what is hyperthyroidism?","what are the symptoms of hyperthyroidism"],
+        "responses":["In hyperthyroidism, your thyroid gland is overactive. It produces too much thyroid hormone. This can cause many of your body's functions to speed up.Symptoms are:\nrestlessness\nnervousness\nracing heart rate\nirritability\nincreased sweating\nshaking\nanxiety\ntrouble sleeping\nthin skin\nbrittle hair and nails\nMuscle weakness\nweight loss"]
+      },
+      {
+        "tag":"hypothyroidism",
+        "patterns":["what is hypothyroidism?","what are the symptoms of hypothyroidism"],
+        "responses":["Hypothyroidism is the opposite of hyperthyroidism. Your thyroid gland is underactive and can't produce enough of its hormones. This can cause some of your body's functions to slow down.Symptoms are:\nFatigue\nDry skin and hair\nIncreased sensitivity to cold temperatures\nMemory problems\nConstipation\nDepression\nWeight gain\nWeakness or muscle and joint pain\nSlow heart rate\nHeavy and irregular menstruation\nFertility problems. "]  
+      },
+      {
+        "tag":"food",
+        "patterns":["What foods are healing for the thyroid?"],
+        "responses":["1.Roasted seaweed\n2.Baked fish\n3.Dairy\n4.Fresh eggs"]
+      },
+      {
+        "tag":"level",
+        "patterns":["What is normal thyroid level?"],
+        "responses":["The normal range of TSH levels in adults is between 0.4 to 4.0 mIU/L (milli-international units per liter). Some research suggests that this range should actually be more like 0.45 to 2.5 mIU/L."]
+      },
+      {
+        "tag":"female",
+        "patterns":["What causes thyroid problems in females?","Why Women Are More Prone to Thyroid Problems?","why females are affected by thyroid"],
+        "responses":[" One reason for this is that thyroid disorders are often triggered by autoimmune responses, which happen when the body’s immune system starts to attack its own cells. \nAnother reason for the prevalence of thyroid disorders in women is that there is an interplay between thyroid hormones and the hormones that fluctuate during the menstrual cycle. Thyroid problems can happen at any time but they are especially common in women during and after the menopause when hormone levels are changing. Some women may confuse the symptoms of thyroid disorders with the effects of the menopause, which can prevent them from seeking treatment."]
+      }
+
+    ]
+  }
